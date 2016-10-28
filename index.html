@@ -6,10 +6,11 @@
         <link rel="stylesheet" href="lib/bootstrap.min.css" type="text/css"/>
         <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="/main.js"></script>
+        <link rel="stylesheet" href="main.css" type="text/css"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <nav class="navbar navbar-default navbar-static-top">
+        <nav class="navbar navbar-default navbar-fixed-top">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-content">
                 <span class="icon-bar"></span>
@@ -32,18 +33,20 @@
                 </ul>
             </div>
         </nav>
-        <div class="container" id="content">
-
-            <!-- TODO: remove inline style -->
-            <div class="jumbotron" style="background-color: #18bc9c; color: white;">
+        <!-- TODO: remove inline style -->
+        <div class="jumbotron" style="background-color: #18bc9c; color: white;" id="jumbotron-area">
+        <div class="container">
             <h1>
                 Hello World.
             </h1>
             <p>
                 Contrary to popular belief, Lorem Ipsum is not simply random
                 text. It has roots in a piece of classical Latin literature
-                from 45 BC, making it over 2000 years old.</p>
-            </div>
+                from 45 BC, making it over 2000 years old.
+            </p>
+        </div>
+        </div>
+        <div class="container" id="content">
             <h4> Subheading 1 </h4>
             <p>
                 There are many variations of passages of Lorem Ipsum available,
