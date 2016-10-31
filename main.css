@@ -1,8 +1,13 @@
+
+
 #jumbotron-area{
     margin: 0em;
     background-color: #cc5533;
+    background-image: url(img/finance_dark.jpg);
+    background-position: center center;
+    background-size: 100%;
     color: white;
-    text-shadow: 0 3px 15px rgba(0, 0, 0, 0.45), 0 0 5px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 3px 15px rgba(0, 0, 0, 1), 0 0 5px rgba(0, 0, 0, 1);
     font-family: "Open Sans","Trebuchet MS","Helvetica Neue","Arial",sans-serif;
     box-shadow: inset 0 0 100px 0 rgba(0, 0, 0, 0.35);
     margin: 4em 0 0 0;
