@@ -1,8 +1,9 @@
 #jumbotron-area{
     background-color: #16314c;
     background-image: url(img/finance_dark.jpg);
+    background-repeat: no-repeat;
     background-position: center center;
-    background-size: 100%;
+    background-size: cover;
     color: white;
     text-shadow: 0 3px 15px rgba(0, 0, 0, 1), 0 0 5px rgba(0, 0, 0, 1);
     font-family: "Open Sans","Trebuchet MS","Helvetica Neue","Arial",sans-serif;
@@ -20,6 +21,12 @@ transition: 0.2s;
 padding-top: 4em;
 }
 
+@media (min-width: 768px) {
+    .dropdown-menu > li {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+}
 .jumbotron p {
     text-align: center;
 }
