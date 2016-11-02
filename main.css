@@ -13,12 +13,20 @@
     min-height: 25em;
 }
 
+.caret {
+    opacity: 1;
+    transition: opacity 0.1s;
+}
+.open .caret {
+    opacity: 0.5;
+}
+
 .nav a {
-transition: 0.2s;
+    transition: 0.2s;
 }
 
 #sitetitle {
-padding-top: 4em;
+    padding-top: 4em;
 }
 
 @media (min-width: 768px) {
