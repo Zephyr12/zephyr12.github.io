@@ -25,12 +25,15 @@ $taglinesArray['ourteam'] = "Our Team Tagline - Contrary to popular belief, this
 $titlesArray['references'] = "References";
 $taglinesArray['references'] = "References Tagline - Contrary to popular belief, this topic actually could be quite interesting if we can come up with a catchy tagline - although we'll definitely need to spend some time on that.";
 
+if(!requestPage) {
+    $requestPage = "home";
+}
 
-if ($requestPage && $titlesArray[$requestPage]) {
+if ($titlesArray[$requestPage]) {
     $title = $titlesArray[$requestPage];
     $tagline = $taglinesArray[$requestPage];
-    $contentFile = "pages/".$page.".html";
-    $imageFile = "pages/img/".$page.".jpg";
+    $contentFile = "pages/".$requestPage.".html";
+    $imageFile = "pages/img/".$requestPage.".jpg";
 } else {
     $title = "File Not Found";
     $tagline = "The file you're looking for cannot be found...";
@@ -51,7 +54,7 @@ if ($requestPage && $titlesArray[$requestPage]) {
         <link rel="stylesheet" href="main.css" type="text/css"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#2c3e50">
-        <title><?php echo($title); ?> - Financial Computing</title>
+        <title><?php echo( $requestPage=="home" ? "Home" : $requestPage ); ?> - Financial Computing</title>
     </head>
     <body>
         <nav class="navbar navbar-default navbar-fixed-top">
