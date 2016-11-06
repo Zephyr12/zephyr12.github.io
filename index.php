@@ -8,7 +8,7 @@ $titlesArray['scalculus'] = "Stochastic Calculus";
 $taglinesArray['scalculus'] = "Stochastic Tagline - Contrary to popular belief, this topic actually could be quite interesting if we can come up with a catchy tagline - although we'll definitely need to spend some time on that.";
 
 $titlesArray['btech'] = "Blockchain Technology";
-$taglinesArray['btech'] = "Blockchain Tagline - Contrary to popular belief, this topic actually could be quite interesting if we can come up with a catchy tagline - although we'll definitely need to spend some time on that.";
+$taglinesArray['btech'] = "Millions are spent on trying to keep our centralised bank systems running and secure, but with blockchain technology we could get rid of banks themselves.";
 
 $titlesArray['atrading'] = "Algorithmic Trading";
 $taglinesArray['atrading'] = "Algorithmic Tagline - Contrary to popular belief, this topic actually could be quite interesting if we can come up with a catchy tagline - although we'll definitely need to spend some time on that.";
@@ -75,7 +75,7 @@ if ($titlesArray[$requestPage]) {
                           </a>
                           <ul class="dropdown-menu dropdown-menu-left">
                             <li><a href="index.php?p=atrading">Algorithmic Trading</a></li>
-                            <li><a href="index.php?p=btech">Blockchain Technlogy</a></li>
+                            <li><a href="index.php?p=btech">Blockchain Technology</a></li>
                             <li><a href="index.php?p=mlearning">Machine Learning</a></li>
                             <li><a href="index.php?p=ptheory">Portfolio Theory</a></li>
                             <li><a href="index.php?p=scalculus">Stochastic Calculus</a></li>
@@ -106,7 +106,7 @@ if ($titlesArray[$requestPage]) {
         <div class="container">
         <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2016 UCL CS Team A</p>
+        <p>&copy; 2016 UCL CS Team A where possible</p>
       </footer>
 </div>
     </body>
