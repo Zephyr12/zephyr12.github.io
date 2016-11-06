@@ -2,7 +2,7 @@
 $requestPage = $_GET['p'];
 
 $titlesArray['home'] = "Financial Computing &amp; Analytics";
-$taglinesArray['home'] = "Home Tagline - Contrary to popular belief, this topic actually could be quite interesting if we can come up with a catchy tagline - although we'll definitely need to spend some time on that.";
+$taglinesArray['home'] = "The backbone of the financial industry";
 
 $titlesArray['scalculus'] = "Stochastic Calculus";
 $taglinesArray['scalculus'] = "Mathematics dedicated to predicting how random motion will behave in the future.";
@@ -43,8 +43,10 @@ if ($titlesArray[$requestPage]) {
 ?>
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
         <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Droid+Sans" type="text/css"/>
@@ -52,7 +54,7 @@ if ($titlesArray[$requestPage]) {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" type="text/css"/>
         <script type="text/javascript" src="main.js"></script>
         <link rel="stylesheet" href="main.css" type="text/css"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
         <meta name="theme-color" content="#2c3e50">
         <title><?php echo( $requestPage=="home" ? "Home" : $title ); ?> - Financial Computing</title>
     </head>
