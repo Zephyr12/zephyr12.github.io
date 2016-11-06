@@ -8,7 +8,7 @@ $titlesArray['scalculus'] = "Stochastic Calculus";
 $taglinesArray['scalculus'] = "Stochastic Tagline - Contrary to popular belief, this topic actually could be quite interesting if we can come up with a catchy tagline - although we'll definitely need to spend some time on that.";
 
 $titlesArray['btech'] = "Blockchain Technology";
-$taglinesArray['btech'] = "Millions are spent on trying to keep our centralised bank systems running and secure, but with blockchain technology we could get rid of banks themselves.";
+$taglinesArray['btech'] = "With this emerging innovation, we could get rid of banking systems as we see them today, and look forward to a more secure financial future.";
 
 $titlesArray['atrading'] = "Algorithmic Trading";
 $taglinesArray['atrading'] = "Algorithmic Tagline - Contrary to popular belief, this topic actually could be quite interesting if we can come up with a catchy tagline - although we'll definitely need to spend some time on that.";
