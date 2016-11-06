@@ -5,7 +5,7 @@ $titlesArray['home'] = "Financial Computing &amp; Analytics";
 $taglinesArray['home'] = "Home Tagline - Contrary to popular belief, this topic actually could be quite interesting if we can come up with a catchy tagline - although we'll definitely need to spend some time on that.";
 
 $titlesArray['scalculus'] = "Stochastic Calculus";
-$taglinesArray['scalculus'] = "Stochastic Tagline - Contrary to popular belief, this topic actually could be quite interesting if we can come up with a catchy tagline - although we'll definitely need to spend some time on that.";
+$taglinesArray['scalculus'] = "Mathematics dedicated to predicting how random motion will behave in the future.";
 
 $titlesArray['btech'] = "Blockchain Technology";
 $taglinesArray['btech'] = "With this emerging innovation, we could get rid of banking systems as we see them today, and look forward to a more secure financial future.";
@@ -14,16 +14,16 @@ $titlesArray['atrading'] = "Algorithmic Trading";
 $taglinesArray['atrading'] = "Algorithmic Tagline - Contrary to popular belief, this topic actually could be quite interesting if we can come up with a catchy tagline - although we'll definitely need to spend some time on that.";
 
 $titlesArray['ptheory'] = "Portfolio Theory";
-$taglinesArray['ptheory'] = "Portfolio Tagline - Contrary to popular belief, this topic actually could be quite interesting if we can come up with a catchy tagline - although we'll definitely need to spend some time on that.";
+$taglinesArray['ptheory'] = "A modern approach to make the most of our money.";
 
 $titlesArray['mlearning'] = "Machine Learning";
 $taglinesArray['mlearning'] = "Machine Learning Tagline - Contrary to popular belief, this topic actually could be quite interesting if we can come up with a catchy tagline - although we'll definitely need to spend some time on that.";
 
 $titlesArray['ourteam'] = "Our Team";
-$taglinesArray['ourteam'] = "Our Team Tagline - Contrary to popular belief, this topic actually could be quite interesting if we can come up with a catchy tagline - although we'll definitely need to spend some time on that.";
+$taglinesArray['ourteam'] = "&quot;Coming together is a beginning. Keeping together is progress. Working together is success.&quot;<br /> - <i>Henry Ford</i>";
 
 $titlesArray['references'] = "References";
-$taglinesArray['references'] = "References Tagline - Contrary to popular belief, this topic actually could be quite interesting if we can come up with a catchy tagline - although we'll definitely need to spend some time on that.";
+$taglinesArray['references'] = "We couldn't have built this site without a few good people, and a few good projects.";
 
 if(!$requestPage) {
     $requestPage = "home";
@@ -106,7 +106,7 @@ if ($titlesArray[$requestPage]) {
         <div class="container">
         <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2016 UCL CS Team A where possible</p>
+        <p>&copy; 2016 UCL CS Team A where possible. <a href="index.php?p=references">Sources of other content.</a></p>
       </footer>
 </div>
     </body>
