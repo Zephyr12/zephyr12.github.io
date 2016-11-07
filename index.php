@@ -108,8 +108,7 @@ if ($titlesArray[$requestPage]) {
         <hr />
         <div class="container">
         <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2016 UCL CS Team A where possible. <a href="index.php?p=references">Sources of other content.</a></p>
+        <p class="text-center">&copy; 2016 UCL CS Team A where possible. <a href="index.php?p=references">Sources of other content.</a></p>
       </footer>
 </div>
     </body>
