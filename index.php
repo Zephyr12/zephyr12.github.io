@@ -17,7 +17,7 @@ $titlesArray['ptheory'] = "Portfolio Theory";
 $taglinesArray['ptheory'] = "A modern approach to make the most of our money.";
 
 $titlesArray['mlearning'] = "Machine Learning";
-$taglinesArray['mlearning'] = "Machine Learning Tagline - Contrary to popular belief, this topic actually could be quite interesting if we can come up with a catchy tagline - although we'll definitely need to spend some time on that.";
+$taglinesArray['mlearning'] = "Machine Learning - Getting the computer to do the hard work so you don't have to";
 
 $titlesArray['ourteam'] = "Our Team";
 $taglinesArray['ourteam'] = "&quot;Coming together is a beginning. Keeping together is progress. Working together is success.&quot;<br /> - <i>Henry Ford</i>";

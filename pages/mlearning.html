@@ -1,29 +1,108 @@
-<h4> MLearning Content </h4>
+<h4> What Is Machine Learning? </h4>
+
 <p>
-    There are many variations of passages of Lorem Ipsum available,
-    but the majority have suffered alteration in some form, by
-    injected humour, or randomised words which don't look even
-    slightly believable. If you are going to use a passage of Lorem
-    Ipsum, you need to be sure there isn't anything embarrassing
-    hidden in the middle of text. All the Lorem Ipsum generators on
-    the Internet tend to repeat predefined chunks as necessary,
-    making this the first true generator on the Internet. It uses a
-    dictionary of over 200 Latin words, combined with a handful of
-    model sentence structures, to generate Lorem Ipsum which looks
-    reasonable. The generated Lorem Ipsum is therefore always free
-    from repetition, injected humour, or non-characteristic words
-    etc.
+Machine Learning is a subfield of Artificial Intelligence, the core focus of
+which is to reduce, or in some cases remove, the programming burden on
+programmers and software designers by allowing computers and programs to learn
+from a given data set. This is done by letting the computer analyse a large
+amount of data and then using patterns found to make predictions about future
+datasets. As well as reducing the effort needed to solve already know problems,
+machine learning can also allow computers to solve problems that the programmer
+themself had no idea how to solve such as analyse a human genome to find issues
+that might cause an individual to be prone to cancer or analyse the stock
+market that would allow trading companies to make millions in automated stock
+market trading.
 </p>
-<h4> Subheading 1 </h4>
+
+<h4> A Short Video </h4>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DNawqNO36g0" frameborder="0" allowfullscreen></iframe>
+
+<h4> How Does Machine Learning Work? </h4>
+
+<p>There are many different many different machine learning methods and new ones
+are being developed and researched every day.
+</p>
+
+<p>Decision tree learning is what most people think of when they think of machine
+learning. It works by building a list of "yes-no" questions based on a given
+categorised data set, i.e. a data set where each data point had been given a
+category. Consider a dataset that contained a few measurements about a stock
+price such as it's current value, it's rate of change and the rate of change of
+the rate of change. Each data point needs to then be categorised according to
+whether it is better to buy or sell that stock, for example as stock with a low
+current value that is going up in price at an increasing rate would be
+classified as a "buy stock". The computer then goes through each of these data
+points and builds a list of questions it can use such as "is the value under
+£2.00" and "is the value going up by £1.00 per day" that it can use to classify
+other data points that is fed and give info on whether to buy or sell.
+<a href="http://www.r2d3.us/visual-intro-to-machine-learning-part-1/">http://www.r2d3.us/visual-intro-to-machine-learning-part-1/</a>
+</p>
+
+<p>Another type of machine learning that is commonly used is something called an
+artificial neural network, or an ANN. These usually consist of a simulated
+network of neurones that work together to mimic the process that a human brain
+takes when it solving a problem. One of sending fragments of the input data to
+be processed in sub-neurons in something called a hidden layer, a constantly
+shifting array of connections that recombine the data and perform the
+computation that is needed. ANNs are useful as they build a decision
+tree to categorise data on their own, without the programmer selecting
+variables to base the decision around using something called the
+Backpropagation algorithm which is used to deduce which neurones are faulty and
+modifies that neuron's parameters in order to improve the output accuracy.  So
+for example an ANN can be fed a list of stock values as input nodes which then
+pass their values onto the hidden layer, which then combine these values and
+pass them to the output node. This output is then checked and any error noted.
+These errors are fed back into the Backpropagation algorithm which then
+rearranges the neurones in the ANNs to reduce the error in the result.
+<a href="http://onlinelibrary.wiley.com/doi/10.1002/1097-0142(20010415)91:8+%3C1615::AID-CNCR1175%3E3.0.CO;2-L/full">http://onlinelibrary.wiley.com/doi/10.1002/1097-0142(20010415)91:8+%3C1615::AID-CNCR1175%3E3.0.CO;2-L/full</a>
+</p>
+<h4> Current Problems with Machine Learning </h4>
 <p>
-    Lorem Ipsum is simply dummy text of the printing and
-    typesetting industry. Lorem Ipsum has been the industry's
-    standard dummy text ever since the 1500s, when an unknown
-    printer took a galley of type and scrambled it to make a type
-    specimen book. It has survived not only five centuries, but
-    also the leap into electronic typesetting, remaining
-    essentially unchanged. It was popularised in the 1960s with the
-    release of Letraset sheets containing Lorem Ipsum passages, and
-    more recently with desktop publishing software like Aldus
-    PageMaker including versions of Lorem Ipsum.
+The first problem with machine learning and the reason manual programming was
+exclusively for the majority of computer science's history is that an
+inordinate amount of computing power is needed to run these programs in
+anything but the most trivial cases but thanks to Moore's Law computing power
+has grown exponentially. And by sending the computations across the internet
+one can apparently perform staggering computations on devices smaller than a
+small notebook.
+<a href="http://www.mooreslaw.org/">http://www.mooreslaw.org/</a>
+</p>
+<p>
+Another problem with machine learning is the problem of overfitting. That is
+what happens when an algorithm picks up more statistical noise than useful
+information, for example with decision tree learning, the program might deduce
+that all good trades "have a low starting value" but in fact all that is needed
+for a good trade is to check if the "value is going up" and the "rate of
+increase is not slowing down", this leads to false negatives in that it won't
+detect good sales as it has not seen all of the possible stocks that it should buy.
+<a href="http://www.r2d3.us/visual-intro-to-machine-learning-part-1/">http://www.r2d3.us/visual-intro-to-machine-learning-part-1/</a>
+</p>
+<h4> Research Areas and Future Developments </h4>
+<p>
+Current research in this area is focused on trying to analyse larger datasets
+in an area called Big Data. Analysing a larger datasets means that you can
+reduce the chance of Overfitting and so produce more relevant and so profitable
+results.
+<a href="http://journals.lww.com/plasreconsurg/Abstract/2016/05000/Big_Data_and_Machine_Learning_in_Plastic_Surgery__.45.aspx">http://journals.lww.com/plasreconsurg/Abstract/2016/05000/Big_Data_and_Machine_Learning_in_Plastic_Surgery__.45.aspx</a>
+</p>
+
+<p>
+A large amount of computing power is needed to analyse these data sets and so a
+method called distributed or cloud computing is being used where the
+problem is being split up between many different smaller computers which can
+then recombine them to produce useful insights into trends faster than would be
+possible with traditional computing.
+<a href="https://pdfs.semanticscholar.org/905b/cb57493c8b97b216bc6786aa122e1ad608b0.pdf">https://pdfs.semanticscholar.org/905b/cb57493c8b97b216bc6786aa122e1ad608b0.pdf</a>
+</p>
+
+<h4> Future Applications </h4>
+
+<p>
+By definition, machine learning is the application of computing power to solve
+problems the programmer themself had no idea how to. This means that the
+applications of machine learning are almost endless ranging from detecting
+malware to predicting stock and market trends. And the range of applications
+will only grow as the amount of data that we have access to increases was well
+as the rate at which it can be processed.
+<a href="http://www.informationweek.com/strategic-cio/executive-insights-and-innovation/11-cool-ways-to-use-machine-learning/d/d-id/1323375?image_number=3">http://www.informationweek.com/strategic-cio/executive-insights-and-innovation/11-cool-ways-to-use-machine-learning/d/d-id/1323375?image_number=3</a>
 </p>
