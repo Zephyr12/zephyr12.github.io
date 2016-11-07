@@ -72,3 +72,7 @@ h4,.h4,h5,.h5,h6,.h6 {
 .col-md-4 {
     padding-top: 2em;
 }
+
+body {
+    overflow-wrap: break-word;
+}
