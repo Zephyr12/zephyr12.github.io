@@ -73,6 +73,6 @@ h4,.h4,h5,.h5,h6,.h6 {
     padding-top: 2em;
 }
 
-body {
+#content {
     overflow-wrap: break-word;
 }
