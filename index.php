@@ -35,6 +35,7 @@ if ($titlesArray[$requestPage]) {
     $contentFile = "pages/".$requestPage.".html";
     $imageFile = "pages/img/".$requestPage.".jpg";
 } else {
+    header("HTTP/1.0 404 Not Found");
     $title = "File Not Found";
     $tagline = "The file you're looking for cannot be found...";
     $contentFile = "pages/filenotfound.html";
