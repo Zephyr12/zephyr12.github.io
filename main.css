@@ -68,3 +68,7 @@ h4,.h4,h5,.h5,h6,.h6 {
     -moz-animation-duration:0.7s;
     -o-animation-duration:0.7s;
 }
+
+.col-md-4 {
+    padding-top: 2em;
+}
