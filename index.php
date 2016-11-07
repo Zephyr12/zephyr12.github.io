@@ -11,7 +11,7 @@ $titlesArray['btech'] = "Blockchain Technology";
 $taglinesArray['btech'] = "With this emerging innovation, we could get rid of banking systems as we see them today, and look forward to a more secure financial future.";
 
 $titlesArray['atrading'] = "Algorithmic Trading";
-$taglinesArray['atrading'] = "Algorithmic Tagline - Contrary to popular belief, this topic actually could be quite interesting if we can come up with a catchy tagline - although we'll definitely need to spend some time on that.";
+$taglinesArray['atrading'] = "Imagine a world where you'd pay $1.5 billion to reduce your reaction time by 60 milliseconds.";
 
 $titlesArray['ptheory'] = "Portfolio Theory";
 $taglinesArray['ptheory'] = "A modern approach to make the most of our money.";
