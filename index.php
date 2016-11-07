@@ -2,7 +2,7 @@
 $requestPage = $_GET['p'];
 
 $titlesArray['home'] = "Financial Computing &amp; Analytics";
-$taglinesArray['home'] = "The backbone of the financial industry";
+$taglinesArray['home'] = "The backbone of the modern financial industry.";
 
 $titlesArray['scalculus'] = "Stochastic Calculus";
 $taglinesArray['scalculus'] = "Mathematics dedicated to predicting how random motion will behave in the future.";
